@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research in your work, please cite it as below."
+title: "Leaking Information from Black Holes"
+authors:
+      - family-names: Ahmad
+        given-names: Raiyan
+        orcid: "https://orcid.org/0009-0009-0683-9732"
+date-released: 2025-04-11
+version: "0.1.0"
+url: "https://https://github.com/TheoreticalZ/Leaking-Information-from-Black-Hole"
+type: software
