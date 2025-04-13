@@ -15,15 +15,11 @@ A conceptual quantum simulation inspired by black hole physics.
 
 ## Overview:
 
-This project explores whether structured quantum information can exist within what appears to be random Hawking Radiation. Using Qiskit, a pair of qubits is used to simulate:
+This project explores the possibility of recovering structured information from Hawking Radiation emitted by black holes, using quantum circuits
+and time reversal. By simulating black hole evaporation with upto 24 qubits (will try with more qubits), I aim to investigate the potential of quantum time reversal processes for information recovery. The project uses **Qiskit** to simulate quantum system.
 
 
-1.One qubit as Hawking Radiation
-
-2.One qubit as the black hole's interior
-
-
-We entangle them and apply reversible transformation and noise - then compare measurement outcomes before and after "reversing time" using KL divergence (relative entropy). The goal is to investigate if information can be recovered or traced, simulating how it might behave near a black hole's boundary.
+We entangle them, create noise to mimic black holes and apply reversible transformation and noise - then compare measurement outcomes before and after reversing time using KL divergence (relative entropy). The goal is to investigate if information can be recovered or traced, simulating how it might behave near a black hole's boundary.
 
 ## Motivation:
 
@@ -52,6 +48,18 @@ This simulation is a conceptual step toward testing that idea on a quantum compu
 
 3.Relative entropy calculation to analyze reversibility and information preservation.
 
+## New development (After trying with more qubits):
+
+1. As the system scales up, the difference in structure between the post and reversed states vanishes or becomes too small to detect using KL Divergence.
+
+2. Beyond a certain complexity, time reversal may not effectively distinguish between original and radiated information.
+
+3. At lower qubit counts (6-20), there's a small but consistent structure preservation via reversal and at higher counts (20+), the reversal process becomes indistinguishable from noise - entropy saturates.
+
+4. *My conclusion on this:*
+    There exists a complexity threshold beyond which information in Hawking radiation becomes unrecoverable even with time reversal. 
+   
+5. But still this research is in progress so there is a space for improvement.
 
 ## Disclaimer:
 
