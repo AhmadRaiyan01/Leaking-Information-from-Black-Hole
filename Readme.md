@@ -65,7 +65,5 @@ This simulation is a conceptual step toward testing that idea on a quantum compu
 
 This is a conceptual simulation, not a physical model of black hole radiation. It is meant to explore ideas related to information flow, quantum enatanglement, and scrambling, inspired by the black hole information paradox.
 
-![State Probability Before and After Time Reversal](images/image.png)
-
 ## License
 This project is shared for educational and conceptual purposes. Not for commercial use.
