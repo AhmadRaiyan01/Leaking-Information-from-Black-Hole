@@ -1,6 +1,6 @@
 ![Made with Qiskit](https://img.shields.io/badge/Made%20with-Qiskit-blue)
 ![Status](https://img.shields.io/badge/Project-Experimental-orange)
-[ ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15200318.svg)](https://doi.org/10.5281/zenodo.15200318)
+[ ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15203082.svg)](https://doi.org/10.5281/zenodo.15203082)
 ## Project Structure
 ˫Leaking information from black hole.ipynb
 
